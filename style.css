@@ -1,0 +1,11 @@
+:root { --bg: #14121c; }
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: var(--bg); }
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  font-family: "Gaegu", system-ui, sans-serif;
+}
+#stage canvas { display: block; border-radius: 18px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5); }
